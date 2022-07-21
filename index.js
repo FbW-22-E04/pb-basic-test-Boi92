@@ -42,10 +42,10 @@ for(i=1;i<=256;i*=2) { console.log(i); }
 
 //.2 Multiples 
 
-/* for (i=1;i<6;i++){
+ for (i=1;i<6;i++){
     console.log(i*3+" ")
 }
- */
+/* 
 function multiplesOfThree() {
     let newStr = "";
     for (let i = 1; i < 6; i++) {
@@ -53,7 +53,7 @@ function multiplesOfThree() {
     }
     return console.log(newStr);
   }
-multiplesOfThree();
+multiplesOfThree(); */
 
 
 
