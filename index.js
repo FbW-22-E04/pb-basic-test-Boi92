@@ -42,13 +42,28 @@ for(i=1;i<=256;i*=2) { console.log(i); }
 
 //.2 Multiples 
 
-for (i=1;i<6;i++){
+/* for (i=1;i<6;i++){
     console.log(i*3+" ")
 }
+ */
+function multiplesOfThree() {
+    let newStr = "";
+    for (let i = 1; i < 6; i++) {
+      newStr += 3 * i + " ";
+    }
+    return console.log(newStr);
+  }
+multiplesOfThree();
 
-// cant figure out how to make it a string atm
+
 
 //1. You've got the power
+function _powerOf_(int) {
+    let powervalue = int ** int;
+    return console.log(powervalue);
+  }
+  _powerOf_(3);
+  _powerOf_(4);
 
 
 
